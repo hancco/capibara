@@ -1,0 +1,82 @@
+overflow-y: hidden;
+0px 2px 0px #000000,
+2px 2px 0px #000000,
+2px 0px 0px #000000,
+2px -2px 0px #000000,
+0px -2px 0px #000000,
+-2px -2px 0px #000000,
+-2px 0px 0px #000000,
+-2px 2px 0px #000000 !important;
+font-weight: bold; */
+inset -1px -1px 2px 0 rgba(0, 0, 0, 0.2),
+inset 1px 1px 2px 0 #b6703b;
+background: #a4571b; */
+background: #e4a865; */
+inset -0.5px -0.5px 2px 0 rgba(255, 255, 255, 0.5),
+inset 0.5px 0.5px 2px 0 rgba(0, 0, 0, 0.2);
+background: #e4a865; */
+inset -0.5px -0.5px 2px 0 rgba(255, 255, 255, 0.5),
+inset 0.5px 0.5px 2px 0 rgba(0, 0, 0, 0.2);
+font-family: Tahoma; */
+inset -1px -1px 2px 0 rgba(0, 0, 0, 0.2),
+inset 1px 1px 2px 0 #b6703b;
+background: #a4571b; */
+background: #e4a865; */
+inset -0.5px -0.5px 2px 0 rgba(255, 255, 255, 0.5),
+inset 0.5px 0.5px 2px 0 rgba(0, 0, 0, 0.2);
+background: #5f606f; */
+inset -1px -1px 2px 0 rgba(0, 0, 0, 0.2),
+inset 1px 1px 2px 0 rgba(255, 255, 255, 0.5);
+background: #4e4f5b; */
+background: #ded5f7; */
+inset -0.5px -0.5px 2px 0 rgba(255, 255, 255, 0.5),
+inset 0.5px 0.5px 2px 0 rgba(0, 0, 0, 0.2);
+font-weight: bold; */
+font-size: 16px;
+
+
+/* ===== Responsive ajustes básicos ===== */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.WindowFrame {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  .WindowFrame {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+
+  .button, .OptionsMenuButton {
+    width: 90%;
+    font-size: 1rem;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #dFlagMeter {
+    transform: scale(0.8);
+    left: 5vw !important;
+    top: 2vh !important;
+  }
+
+  #dMenu, #dTop {
+    display: none;
+  }
+}
